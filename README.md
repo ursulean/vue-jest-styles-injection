@@ -1,4 +1,4 @@
-# Jest Vue3 SFC Styles Injection
+# Vitest Vue3 SFC Styles Injection
 
 ## To reproduce
 

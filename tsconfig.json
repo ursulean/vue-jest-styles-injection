@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
-    "types": ["jest", "node"],
+    "types": ["node"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",
