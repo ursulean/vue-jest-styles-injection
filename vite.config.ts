@@ -7,6 +7,12 @@ export default defineConfig({
   plugins: [vue()],
   test: {
     css: true,
-    environment: 'jsdom',
+    setupFiles: ['vitest-browser-vue'],
+    browser: {
+      provider: 'playwright',
+      enabled: true,
+      name: 'firefox',
+      headless: true,
+    },
   },
 })
